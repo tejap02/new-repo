@@ -12,7 +12,7 @@ pipeline {
             }
         }
         stage('clone the repos') {
-            steps {
+            steps {     
                 echo "Welcome"
                 // git branch: 'main', credentialsId: 'tejap02', url: 'https://github.com/tejap02/new-repo.git'
             }
